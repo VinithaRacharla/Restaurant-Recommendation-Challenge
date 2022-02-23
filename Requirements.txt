@@ -1,0 +1,5 @@
+sklearn
+LogisticRegression
+pandas
+numpy
+pickle
