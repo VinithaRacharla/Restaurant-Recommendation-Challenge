@@ -17,8 +17,8 @@ def Restaurant_recommendation(input_data):
 
 def main():
     st.title('Restaurant Recommendation Challenge')
-    customer_id = st.text_input('Give Customer ID ')
-    gender = st.text_input('Gender')
+    customer_id = st.text_input('Give Customer ID-In number ')
+    gender = st.text_input('Gender:0(male),1(Female)')
     location_number = st.text_input('location number')
     id = st.text_input('ID')
     vendor_category_id = st.text_input('Vendor category ID')
